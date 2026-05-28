@@ -19,13 +19,13 @@ O sistema permite cadastrar, listar, buscar, atualizar e deletar registros de pr
 O objetivo do projeto é praticar os principais conceitos de desenvolvimento backend com Spring Boot, incluindo:
 
 - Criação de projeto Spring com Maven
-- Configuração de banco de dados MySQL
 - Criação de entidades com JPA
 - Organização em camadas
 - Implementação de Repository
 - Implementação de Controller REST
 - Relacionamento entre entidades
 - Validação de dados
+- Persistência de dados com MySQL
 - Versionamento com Git e GitHub
 
 ## 🧱 Estrutura do projeto
@@ -143,8 +143,6 @@ Esse relacionamento permite que os produtos sejam organizados por categoria dent
 - GitHub
 - Spring Tool Suite
 
-```
-
 ## 📡 Endpoints da API
 
 ### Categoria
@@ -195,53 +193,6 @@ Esse relacionamento permite que os produtos sejam organizados por categoria dent
 
 - [CategoriaRepository.java](https://github.com/Day-Barbosa/Loja_Games/blob/main/src/main/java/com/generation/lojagames/repository/CategoriaRepository.java)
 - [ProdutoRepository.java](https://github.com/Day-Barbosa/Loja_Games/blob/main/src/main/java/com/generation/lojagames/repository/ProdutoRepository.java)
-
-## ▶️ Como executar o projeto
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/Day-Barbosa/Loja_Games.git
-```
-
-Acesse a pasta do projeto:
-
-```bash
-cd Loja_Games
-```
-
-Abra o projeto no Spring Tool Suite.
-
-Configure a senha do banco de dados no arquivo:
-
-```txt
-src/main/resources/application.properties
-```
-
-Execute a aplicação pela classe principal:
-
-```txt
-LojagamesApplication.java
-```
-
-A aplicação será executada em:
-
-```txt
-http://localhost:8080
-```
-
-## 🤝 Contribuição
-
-Este projeto foi desenvolvido para fins educacionais, mas sugestões de melhoria são bem-vindas.
-
-Para contribuir:
-
-```bash
-git clone https://github.com/Day-Barbosa/Loja_Games.git
-git checkout -b minha-melhoria
-git commit -m "Minha melhoria"
-git push origin minha-melhoria
-```
 
 ## 👩‍💻 Desenvolvedora
 
