@@ -143,28 +143,6 @@ Esse relacionamento permite que os produtos sejam organizados por categoria dent
 - GitHub
 - Spring Tool Suite
 
-## ⚙️ Configuração do banco de dados
-
-O projeto utiliza o banco de dados MySQL.
-
-Banco utilizado:
-
-```sql
-CREATE DATABASE db_lojagames;
-```
-
-Configuração utilizada no arquivo `application.properties`:
-
-```properties
-spring.application.name=lojagames
-
-spring.datasource.url=jdbc:mysql://localhost:3306/db_lojagames?createDatabaseIfNotExist=true&serverTimezone=America/Sao_Paulo&useSSL=false
-spring.datasource.username=root
-spring.datasource.password=SUA_SENHA_DO_MYSQL
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
 ```
 
 ## 📡 Endpoints da API
