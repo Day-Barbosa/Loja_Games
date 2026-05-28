@@ -204,6 +204,3 @@ GitHub: [Day-Barbosa](https://github.com/Day-Barbosa)
 
 Este projeto foi desenvolvido para fins educacionais, com o objetivo de praticar conceitos de desenvolvimento backend com Java, Spring Boot, banco de dados relacional e construção de APIs REST.
 
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
